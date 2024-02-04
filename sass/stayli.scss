@@ -1,0 +1,19 @@
+@import "./base/fonts";
+@import "./base/reset";
+// components
+@import "./components/buttons";
+@import "./components/widget";
+// loyout
+@import "./layout/footer";
+@import "./layout/header";
+// pages
+@import "./pages/home";
+
+// container
+
+@import "./base/container";
+//
+// main
+@import "./layout/main";
+
+@import "./components/risponsive"

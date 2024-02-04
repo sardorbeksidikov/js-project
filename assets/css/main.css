@@ -1,0 +1,358 @@
+.aksiya-row .aksiya__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1240px) {
+  .aksiya-row .aksiya__name {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 700px;
+  }
+}
+@media (max-width: 950px) {
+  .aksiya-row .aksiya__name {
+    gap: 150px;
+  }
+}
+.aksiya-row .aksiya__name-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.aksiya-row .aksiya__link {
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: url("../../assets/images/images/chevron-right.svg") no-repeat;
+  background-position: 110px -1px;
+  color: #606060;
+}
+.aksiya-row .aksiya__link:hover {
+  color: #ff6633;
+}
+.aksiya-row .aksiya__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+@media (max-width: 1240px) {
+  .aksiya-row .aksiya__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.aksiya-row .aksiya__box {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(254, 97, 97, 0.2);
+          box-shadow: 0px 2px 4px 0px rgba(254, 97, 97, 0.2);
+}
+.aksiya-row .aksiya__box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.aksiya-row .aksiya__box-img {
+  max-width: 272px;
+}
+.aksiya-row .aksiya__box-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.aksiya-row .aksiya__box-title {
+  margin-top: 8px;
+  max-width: 256px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.aksiya-row .aksiya__btn-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.aksiya-row .aksiya__box-btn {
+  padding: 8px 100px;
+  margin-top: 8px;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #70c05b;
+}
+.aksiya-row .aksiya__box-btn:hover {
+  -webkit-transform: 1.1;
+          transform: 1.1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ff6633;
+  color: #fff;
+  border: none;
+}
+.aksiya-row .novinki {
+  margin-top: 120px;
+}
+.aksiya-row .novinki__number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #414141;
+  margin-bottom: 26px;
+}
+@media (max-width: 475px) {
+  .aksiya-row .novinki {
+    margin-top: 40px;
+  }
+}
+
+.kart-buy__top-name {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #414141;
+}
+@media (max-width: 600px) {
+  .kart-buy__top-name {
+    text-align: center;
+  }
+}
+.kart-buy .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.kart-buy .product__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background-color: #fcd5ba;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(117, 91, 91, 0.2);
+          box-shadow: 0px 2px 4px 0px rgba(117, 91, 91, 0.2);
+}
+@media (max-width: 600px) {
+  .kart-buy .product__box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.kart-buy .product__name {
+  max-width: 258px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.kart-buy .product__title {
+  max-width: 258px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.kart-buy .product__box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background-color: #e5ffde;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(117, 91, 91, 0.2);
+          box-shadow: 0px 2px 4px 0px rgba(117, 91, 91, 0.2);
+}
+@media (max-width: 600px) {
+  .kart-buy .product__box2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.kart-buy .product__name {
+  max-width: 258px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.kart-buy .product__title {
+  max-width: 258px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media (max-width: 1150px) {
+  .kart-buy .product {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.kart-buy .magazin__name-text {
+  margin-top: 120px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #414141;
+}
+@media (max-width: 600px) {
+  .kart-buy .magazin__name-text {
+    text-align: center;
+  }
+}
+.kart-buy .magazin__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 24px;
+}
+.kart-buy .magazin__kart-btn {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #f3f2f1;
+  border: none;
+}
+.kart-buy .magazin__kart-btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #70c05b;
+  color: #fff;
+}
+.kart-buy .magazin__map-karts {
+  width: 100%;
+}
+.kart-buy .stati__name {
+  margin-top: 120px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+@media (max-width: 600px) {
+  .kart-buy .stati__name {
+    text-align: center;
+  }
+}
+.kart-buy .stati__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+@media (max-width: 1150px) {
+  .kart-buy .stati__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.kart-buy .stati__box {
+  margin-top: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(254, 97, 97, 0.2);
+          box-shadow: 0px 2px 4px 0px rgba(254, 97, 97, 0.2);
+}
+@media (max-width: 600px) {
+  .kart-buy .stati__box {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.kart-buy .stati__box-img {
+  width: 100%;
+}
+.kart-buy .stati__box-page {
+  padding: 10px;
+}
+.kart-buy .stati__number {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #8f8f8f;
+}
+.kart-buy .stati__box-name {
+  max-width: 356px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.kart-buy .stati__box-title {
+  max-width: 356px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #414141;
+}
+.kart-buy .stati__box-btn {
+  padding: 8px 35px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e5ffde;
+}
+.kart-buy .stati__box-btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #70c05b;
+  color: #fff;
+}
