@@ -1,19 +1,25 @@
-@import "./base/fonts";
-@import "./base/reset";
+@use "./base/fonts";
+@use "./base/reset";
 // components
-@import "./components/buttons";
-@import "./components/widget";
+@use "./components/buttons";
+@use "./components/widget";
 // loyout
-@import "./layout/footer";
-@import "./layout/header";
+@use "./layout/footer";
+@use "./layout/header";
 // pages
-@import "./pages/home";
+@use "./pages/home";
 
 // container
 
-@import "./base/container";
+@use "./base/container";
 //
 // main
-@import "./layout/main";
+@use "./layout/main";
 
-@import "./components/risponsive"
+@use "./components/risponsive";
+// products
+
+@use "./pages/products";
+
+
+@use "./pages/catigories"
