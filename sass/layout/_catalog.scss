@@ -1,0 +1,24 @@
+#catalog-list {
+  background-color: #fff;
+  display: none;
+  position: fixed;
+  top: 70px;
+  width: 100%;
+  z-index: 14;
+  .list-catalog {
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    &__content{
+        &:hover{
+            color: #FF6633;
+            transition: 0.1s;
+        }
+    }
+  }
+}
+
+.open {
+  display: block !important;
+}

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Losson 6</title>
+    <link rel="stylesheet" href="../assets/css/stayli.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navigation">
+          <a href="../index.html ">
+            <img src="../assets/images/images/logo.svg" alt="" />
+          </a>
+          <div class="navigation-left">
+            <button id="toggleForm">
+              <img src="../assets/images/images/Button.png" alt="" />
+            </button>
+            <input
+              class="navigation-left__input"
+              id="search"
+              placeholder="Найти товар"
+              type="text" />
+          </div>
+          <div class="navigation-right">
+            <div class="navigation-right-one">
+              <div class="navigation-right-one-link__one">
+                <div class="navigation-right-one-linkonea">
+                  <a href=""
+                    ><img
+                      class="navigation-right__img"
+                      src="../assets/images/images/like.svg"
+                      alt=""
+                  /></a>
+                  <a class="navigation-right-one-linkonea__link" href=""
+                    >Избранное</a
+                  >
+                </div>
+                <div class="navigation-right-one-linkonea">
+                  <a href=""
+                    ><img
+                      class="navigation-right__img"
+                      src="../assets/images/images/box.svg"
+                      alt=""
+                  /></a>
+                  <a
+                    class="navigation-right-one-linkonea__link"
+                    href="./products.html"
+                    >продукты</a
+                  >
+                </div>
+                <div class="navigation-right-one-linkonea">
+                  <a href="">
+                    <img
+                      class="navigation-right__img"
+                      src="../assets/images/images/korzina.svg"
+                      alt="" />
+                  </a>
+                  <a class="navigation-right-one-linkonea__link" href=""
+                    >Корзина</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="navigation-right-area">
+              <a class="navigation-right-area__name" href="#">
+                <img src="../assets/images/images/avatar.svg" alt="" />
+                <button id="btn-open" class="navigation-right-area__text-name">
+                  Алексей
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="navbar-responsive">
+        <button id="navbar-close">
+          <img
+            src="../assets/images/cancel_FILL0_wght400_GRAD0_opsz24.svg"
+            alt="close-img" />
+        </button>
+        <div class="navigation-responsive-left">
+          <input
+            class="navigation-responsive-left__input"
+            placeholder="Найти товар"
+            type="text" />
+          <a href="">
+            <img src="../assets/images/home-img/Button (2).png" alt="" />
+          </a>
+        </div>
+        <div class="navigation-responsive-right">
+          <div class="navigation-responsive-right-one">
+            <div class="navigation-responsive-right-one-link__one">
+              <div class="navigation-responsive-right-one-linkoneflex">
+                <a href=""
+                  ><img
+                    src="../assets/images/home-img/heart-icon1.png"
+                    alt="icon-img"
+                /></a>
+                <a class="navigation-right-one-linkonea_link" href=""
+                  >Избранное</a
+                >
+              </div>
+              <div class="navigation-responsive-right-one-linkoneflex">
+                <a href=""
+                  ><img
+                    src="../assets/images/home-img/header-box-icon.png"
+                    alt="icon-img"
+                /></a>
+                <a class="navigation-right-one-linkonea_link" href=""
+                  >Избранное</a
+                >
+              </div>
+              <div class="navigation-responsive-right-one-linkoneflex">
+                <a href=""
+                  ><img
+                    src="../assets/images/home-img/shop-cion.png"
+                    alt="icon-img"
+                /></a>
+                <a class="navigation-right-one-linkonea_link" href=""
+                  >Избранное</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- catalog-list -->
+      <div id="catalog-list">
+        <div class="container">
+          <div class="list-catalog">
+            <a href="./pages/categories.html" class="list-catalog__content"
+              >Каталог</a
+            >
+            <h4 class="list-catalog__content">Хлеб</h4>
+            <h4 class="list-catalog__content">Фрукты и овощи</h4>
+            <h4 class="list-catalog__content">Замороженные продукты</h4>
+            <h4 class="list-catalog__content">Напитки</h4>
+            <h4 class="list-catalog__content">Кондитерские изделия</h4>
+            <h4 class="list-catalog__content">Чай, кофе</h4>
+            <h4 class="list-catalog__content">Бакалея</h4>
+            <h4 class="list-catalog__content">Здоровое питание</h4>
+            <h4 class="list-catalog__content">Зоотовары</h4>
+            <h4 class="list-catalog__content">Непродовольственные товары</h4>
+            <h4 class="list-catalog__content">Детское питание</h4>
+            <h4 class="list-catalog__content">Мясо, птица, колбаса</h4>
+          </div>
+        </div>
+      </div>
+      <!-- modul -->
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-btn">
+            <button class="modal-btn1" id="btn-close">X</button>
+          </div>
+          <h1 class="modal-name__text">Вход</h1>
+          <div class="modal-input">
+            <p class="modal-number__text">Телефон</p>
+            <input
+              class="modal-input__btn"
+              type="tel"
+              name="phone"
+              value="+998"
+              placeholder="Phone Number"
+              title="Phone Number"
+              required
+              pattern="[0-9]{2}[0-9]{3}[0-9]{3}[0-9]{4}" />
+            <button class="modal-vixod">Вход</button>
+          </div>
+          <div class="modal-regis">
+            <button class="modal-regis__btn">Регистрация</button>
+            <a href="#" class="modal-link">Забыли пароль?</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="tavar-page">
+          <div class="page-link">
+            <a class="page-link__cart-link" href="../index.html">Главная</a>
+            <a class="page-link__cart-link" href="./categories.html">Каталог</a>
+            <a class="page-link__cart-link1" href="#">Молоко, сыр, яйцо</a>
+            <a class="page-link__cart-link2" href="#"
+              >Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180
+              г</a
+            >
+          </div>
+          <div class="tavar-name">
+            <h1 class="tavar-name__text">
+              Масло ПРОСТОКВАШИНО сливочное в/с 82% фольга без змж, Россия, 180
+              г
+            </h1>
+            <div class="tavar-name__link-cart">
+              <a href="#" class="tavar-name__link">арт. 371431</a>
+              <a href="#" class="tavar-name__link"
+                ><img
+                  class="tavar-name__img1"
+                  src="../assets/images/images/rating.svg"
+                  alt="" />3 отзыва</a
+              >
+              <a href="#" class="tavar-name__link"
+                ><img
+                  src="../assets/images/images/share-2.svg"
+                  alt=""
+                  class="tavar-name__img" />Поделиться</a
+              >
+              <a href="#" class="tavar-name__link"
+                ><img
+                  src="../assets/images/images/like.svg"
+                  alt=""
+                  class="tavar-name__img" />В избраное</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-cart">
+            <div class="product-cart__indicators">
+              <img
+                class="product-cart__img-title"
+                src="../assets/images/catigoies/6.png"
+                alt="" />
+              <img
+                class="product-cart__img-title"
+                src="../assets/images/catigoies/8.png"
+                alt="" />
+              <img
+                class="product-cart__img-title"
+                src="../assets/images/catigoies/9.png"
+                alt="" />
+              <img
+                class="product-cart__img-title"
+                src="../assets/images/catigoies/7.png"
+                alt="" />
+            </div>
+            <div id="show">
+              <img
+                class="product-cart__img"
+                src="../assets/images/catigoies/7.png"
+                alt="" />
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__money">
+              <div>
+                <b class="product-box__money-price1">192,69 ₽</b>
+                <p class="product-box__prise">Обычная цена</p>
+              </div>
+              <div>
+                <b class="product-box__money-price2">108,99 ₽</b>
+                <p class="product-box__prise">С картой Северяночки</p>
+              </div>
+            </div>
+            <div class="product-box__btn">
+              <button class="product-box__basket">В корзину</button>
+            </div>
+            <div class="accardion-parent">
+              <button class="accordion">Бренд</button>
+              <div class="panel">
+                <div class="panel-content">
+                  <p>Страна производителя</p>
+                  <h4>Россия</h4>
+                </div>
+              </div>
+
+              <button class="accordion">Упаковка</button>
+              <div class="panel">
+                <div class="panel-content">
+                  <p>Страна производителя</p>
+                  <h4>Россия</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aksiya-row">
+          <div class="aksiya">
+            <div class="aksiya__name">
+              <div><h1 class="aksiya__name-text">Акции</h1></div>
+              <div>
+                <a href="#" class="aksiya__link">Все продукты</a>
+              </div>
+            </div>
+            <div class="aksiya__row">
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/row-img1.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <div class="aksiya__box-row">
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 140.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 142.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                </div>
+                <p class="aksiya__box-title">
+                  Г/Ц Блинчики с мясом вес, Россия
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/row-img2.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <div class="aksiya__box-row">
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 140.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 142.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                </div>
+                <p class="aksiya__box-title">
+                  Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/row-img3.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <div class="aksiya__box-row">
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 140.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 142.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                </div>
+                <p class="aksiya__box-title">
+                  Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/row-img4.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <div class="aksiya__box-row">
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 140.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                  <div>
+                    <img
+                      src="../assets/images/images/Frame 142.svg"
+                      alt=""
+                      class="aksiya__box-row__igm" />
+                  </div>
+                </div>
+                <p class="aksiya__box-title">
+                  Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="novinki">
+            <div class="aksiya__name">
+              <div><h1 class="aksiya__name-text">Новинки</h1></div>
+              <div>
+                <a href="#" class="aksiya__link">Все продукты</a>
+              </div>
+            </div>
+            <div class="aksiya__row">
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/ranshe1.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <b class="novinki__number">77,99 ₽</b>
+                <p class="aksiya__box-title">
+                  Г/Ц Блинчики с мясом вес, Россия
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/novinki3.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <b class="novinki__number">159,99 ₽</b>
+                <p class="aksiya__box-title">
+                  Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/novinki1.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <b class="novinki__number">599,99 ₽</b>
+                <p class="aksiya__box-title">
+                  Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+              <div class="aksiya__box">
+                <img
+                  src="../assets/images/images/novinki2.png"
+                  alt=""
+                  class="aksiya__box-img" />
+                <b class="novinki__number">49,39 ₽</b>
+                <p class="aksiya__box-title">
+                  Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...
+                </p>
+                <img
+                  src="../assets/images/images/rating.svg"
+                  alt=""
+                  class="aksiya__box-rayting" />
+                <div class="aksiya__btn-data">
+                  <button class="aksiya__box-btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/catalogy.js"></script>
+    <script src="../js/product.js"></script>
+  </body>
+</html>

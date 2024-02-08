@@ -7,80 +7,162 @@
     <link rel="stylesheet" href="../assets/css/stayli.min.css" />
   </head>
   <body>
-  
-
     <header class="header">
-        <div class="container">
-            <div class="navigation">
-                <a href="../index.html ">
-                    <img src="../assets/images/images/logo.svg" alt="">
-                </a>
-                <div class="navigation-left">
-                    <a href="./categories.html">
-                        <img src="../assets/images/images/Button.png" alt="">
-                    </a>
-                    <input class="navigation-left__input" id="search" placeholder="Найти товар" type="text"></a>
+      <div class="container">
+        <div class="navigation">
+          <a href="../index.html ">
+            <img src="../assets/images/images/logo.svg" alt="" />
+          </a>
+          <div class="navigation-left">
+            <button id="toggleForm">
+              <img src="../assets/images/images/Button.png" alt="" />
+            </button>
+            <input
+              class="navigation-left__input"
+              id="search"
+              placeholder="Найти товар"
+              type="text" />
+          </div>
+          <div class="navigation-right">
+            <div class="navigation-right-one">
+              <div class="navigation-right-one-link__one">
+                <div class="navigation-right-one-linkonea">
+                  <a href=""
+                    ><img class="navigation-right__img" src="../assets/images/images/like.svg" alt=""
+                  /></a>
+                  <a class="navigation-right-one-linkonea__link" href=""
+                    >Избранное</a
+                  >
                 </div>
-
-                <div class="navigation-right">
-                    <div class="navigation-right-one">
-                        <div class="navigation-right-one-link__one">
-                            <div class="navigation-right-one-linkonea">
-                                <a href=""><img src="../assets/images/images/like.svg" alt=""></a>
-                                <a class="navigation-right-one-linkonea_link" href="">Избранное</a>
-                            </div>
-                            <div class="navigation-right-one-linkonea">
-                                <a href=""><img src="../assets/images/images/box.svg" alt=""></a>
-                                <a class="navigation-right-one-linkonea_link" href="./products.html">продукты</a>
-                            </div>
-                            <div class="navigation-right-one-linkonea">
-                                <a href="">
-                                    <img src="../assets/images/images/korzina.svg" alt="">
-                                </a>
-                                <a class="navigation-right-one-linkonea_link" href="">Корзина</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="navigation-right-area">
-                        <img src="../assets/images/images/avatar.svg" alt="img-man">
-                        <p class="navigation-right-area__name"> Алексей</p>
-                        <a href=""><img src="../assets/images/home-img/bottom-arrow.png" alt=""></a>
-                    </div>
+                <div class="navigation-right-one-linkonea">
+                  <a href=""
+                    ><img class="navigation-right__img" src="../assets/images/images/box.svg" alt=""
+                  /></a>
+                  <a
+                    class="navigation-right-one-linkonea__link"
+                    href="./products.html"
+                    >продукты</a
+                  >
                 </div>
-                 
+                <div class="navigation-right-one-linkonea">
+                  <a href="">
+                    <img class="navigation-right__img" src="../assets/images/images/korzina.svg" alt="" />
+                  </a>
+                  <a class="navigation-right-one-linkonea__link" href=""
+                    >Корзина</a
+                  >
+                </div>
+              </div>
             </div>
+            <div class="navigation-right-area">
+              <a class="navigation-right-area__name" href="#">
+                <img src="../assets/images/images/avatar.svg" alt="" />
+                <button id="btn-open" class="navigation-right-area__text-name">
+                  Алексей
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
-    <div id="navbar-responsive">
+      </div>
+      <div id="navbar-responsive">
         <button id="navbar-close">
-            <img src="../assets/images/cancel_FILL0_wght400_GRAD0_opsz24.svg" alt="close-img">
+          <img
+            src="../assets/images/cancel_FILL0_wght400_GRAD0_opsz24.svg"
+            alt="close-img" />
         </button>
         <div class="navigation-responsive-left">
-            <input class="navigation-responsive-left__input" placeholder="Найти товар" type="text"></a>
-            <a href="">
-                <img src="../assets/images/home-img/Button (2).png" alt="">
-            </a>
+          <input
+            class="navigation-responsive-left__input"
+            placeholder="Найти товар"
+            type="text" />
+          <a href="">
+            <img src="../assets/images/home-img/Button (2).png" alt="" />
+          </a>
         </div>
         <div class="navigation-responsive-right">
-            <div class="navigation-responsive-right-one">
-                <div class="navigation-responsive-right-one-link__one">
-                    <div class="navigation-responsive-right-one-linkoneflex">
-                        <a href=""><img src="../assets/images/home-img/heart-icon1.png" alt="icon-img"></a>
-                        <a class="navigation-right-one-linkonea_link" href="">Избранное</a>
-                    </div>
-                    <div class="navigation-responsive-right-one-linkoneflex">
-                        <a href=""><img src="../assets/images/home-img/header-box-icon.png" alt="icon-img"></a>
-                        <a class="navigation-right-one-linkonea_link" href="">Избранное</a>
-                    </div>
-                    <div class="navigation-responsive-right-one-linkoneflex">
-                        <a href=""><img src="../assets/images/home-img/shop-cion.png" alt="icon-img"></a>
-                        <a class="navigation-right-one-linkonea_link" href="">Избранное</a>
-                    </div>
-                </div>
+          <div class="navigation-responsive-right-one">
+            <div class="navigation-responsive-right-one-link__one">
+              <div class="navigation-responsive-right-one-linkoneflex">
+                <a href=""
+                  ><img
+                    src="../assets/images/home-img/heart-icon1.png"
+                    alt="icon-img"
+                /></a>
+                <a class="navigation-right-one-linkonea_link" href=""
+                  >Избранное</a
+                >
+              </div>
+              <div class="navigation-responsive-right-one-linkoneflex">
+                <a href=""
+                  ><img
+                    src="../assets/images/home-img/header-box-icon.png"
+                    alt="icon-img"
+                /></a>
+                <a class="navigation-right-one-linkonea_link" href=""
+                  >Избранное</a
+                >
+              </div>
+              <div class="navigation-responsive-right-one-linkoneflex">
+                <a href=""
+                  ><img
+                    src="../assets/images/home-img/shop-cion.png"
+                    alt="icon-img"
+                /></a>
+                <a class="navigation-right-one-linkonea_link" href=""
+                  >Избранное</a
+                >
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    
+      </div>
+      <!-- catalog-list -->
+      <div id="catalog-list">
+        <div class="container">
+          <div class="list-catalog">
+            <a class="list-catalog__content">Каталог</a>
+            <h4 class="list-catalog__content">Хлеб</h4>
+            <h4 class="list-catalog__content">Фрукты и овощи</h4>
+            <h4 class="list-catalog__content">Замороженные продукты</h4>
+            <h4 class="list-catalog__content">Напитки</h4>
+            <h4 class="list-catalog__content">Кондитерские изделия</h4>
+            <h4 class="list-catalog__content">Чай, кофе</h4>
+            <h4 class="list-catalog__content">Бакалея</h4>
+            <h4 class="list-catalog__content">Здоровое питание</h4>
+            <h4 class="list-catalog__content">Зоотовары</h4>
+            <h4 class="list-catalog__content">Непродовольственные товары</h4>
+            <h4 class="list-catalog__content">Детское питание</h4>
+            <h4 class="list-catalog__content">Мясо, птица, колбаса</h4>
+          </div>
+        </div>
+      </div>
+      <!-- modul -->
+      <div class="modal">
+        <div class="modal-content">
+          <div class="modal-btn">
+            <button class="modal-btn1" id="btn-close">X</button>
+          </div>
+          <h1 class="modal-name__text">Вход</h1>
+          <div class="modal-input">
+            <p class="modal-number__text">Телефон</p>
+            <input class="modal-input__btn"
+              type="tel"
+              name="phone"
+              value="+998"
+              placeholder="Phone Number"
+              title="Phone Number"
+              required
+              pattern="[0-9]{2}[0-9]{3}[0-9]{3}[0-9]{4}" />
+              <button class="modal-vixod">Вход</button>
+              
+          </div>
+          <div class="modal-regis">
+            <button class="modal-regis__btn">Регистрация</button>
+            <a href="#" class="modal-link">Забыли пароль?</a>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <div class="container">
@@ -94,5 +176,6 @@
     </main>
 
     <script src="../js/categories-data.js"></script>
+    <script src="../js/catalogy.js"></script>
   </body>
 </html>

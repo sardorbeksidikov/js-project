@@ -22,4 +22,8 @@
 @use "./pages/products";
 
 
-@use "./pages/catigories"
+@use "./pages/catigories";
+
+@use "./layout/catalog";
+
+@use "./pages/tavar"
