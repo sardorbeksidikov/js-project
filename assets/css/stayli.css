@@ -1386,6 +1386,15 @@ body {
   line-height: 18px;
   color: #ff6633;
 }
+.korzina-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
 .korzina-carts {
   margin-top: 32px;
 }
@@ -1400,6 +1409,16 @@ body {
           align-items: center;
   gap: 20px;
   background-color: #fff;
+  -webkit-box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.korzina-cart:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 3px 3px 5px 5px rgba(244, 31, 31, 0.4);
+          box-shadow: 3px 3px 5px 5px rgba(244, 31, 31, 0.4);
 }
 .korzina-cart__min-box {
   display: -webkit-box;
@@ -1425,10 +1444,49 @@ body {
   line-height: 27px;
   color: #414141;
 }
+.korzina-price {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.korzina-price__img {
+  width: 100%;
+}
 .korzina-price__products {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.korzina-price__itog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.korzina-price__btn1 {
+  text-align: center;
+  padding: 10px 90px;
+  background-color: #fcd5ba;
+  color: #ff6633;
+  border: none;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+.korzina-price__btn1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ff6633;
+  color: #fff;
 }
 
 .footer-img {
