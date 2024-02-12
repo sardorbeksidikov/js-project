@@ -1,0 +1,97 @@
+.korzina {
+  &-linkes {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+
+    &__link {
+      padding-right: 30px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      color: #414141;
+      background: url("../../assets/images/images/chevron-right.svg") no-repeat;
+      background-position: 60px -4px;
+      &:hover {
+        color: #ff6633;
+      }
+    }
+    &__link1 {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      color: #414141;
+      &:hover {
+        color: #ff6633;
+      }
+    }
+  }
+  &__name {
+    margin-top: 24px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    color: #414141;
+  }
+
+  &-product {
+    &__link {
+      display: flex;
+      margin-top: 64px;
+      gap: 48px;
+      align-items: center;
+    }
+    &__delete {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      color: #ff6633;
+    }
+  }
+
+  &-carts {
+    margin-top: 32px;
+    // display: flex;
+  }
+  &-cart {
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+
+    &__min-box {
+      display: flex;
+      margin-top: 10px;
+      align-items: center;
+      gap: 15px;
+    }
+    &__btn1 {
+      padding: 8px 30px;
+      margin-left: 100px;
+      background-color: #70c05b;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+    }
+    &__price {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      color: #414141;
+    }
+  }
+
+  &-price {
+
+    &__products {
+      display: flex;
+    }
+  }
+}
+
+.footer-img {
+  width: 100%;
+  margin-top: 100px;
+}

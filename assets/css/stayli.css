@@ -1334,3 +1334,104 @@ body {
     margin-top: 40px;
   }
 }
+
+.korzina-linkes {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.korzina-linkes__link {
+  padding-right: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #414141;
+  background: url("../../assets/images/images/chevron-right.svg") no-repeat;
+  background-position: 60px -4px;
+}
+.korzina-linkes__link:hover {
+  color: #ff6633;
+}
+.korzina-linkes__link1 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #414141;
+}
+.korzina-linkes__link1:hover {
+  color: #ff6633;
+}
+.korzina__name {
+  margin-top: 24px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  color: #414141;
+}
+.korzina-product__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 64px;
+  gap: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.korzina-product__delete {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ff6633;
+}
+.korzina-carts {
+  margin-top: 32px;
+}
+.korzina-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  background-color: #fff;
+}
+.korzina-cart__min-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.korzina-cart__btn1 {
+  padding: 8px 30px;
+  margin-left: 100px;
+  background-color: #70c05b;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+.korzina-cart__price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #414141;
+}
+.korzina-price__products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-img {
+  width: 100%;
+  margin-top: 100px;
+}

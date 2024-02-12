@@ -1,11 +1,12 @@
-const products = [
+const carts = [
   {
     id: 1,
     name: "Apple",
     price: 25.25,
     category: "Fruit",
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
-    btn: "В корзину",
+    btn: "-  2  +",
+    btn1: "+",
     rating: 5,
     discount: 0,
     images: [
@@ -20,8 +21,8 @@ const products = [
     name: "Banana",
     price: 95.25,
     category: "Fruit",
-    description: "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...",
-    btn: "В корзину",
+    description: "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯС",
+    btn: "- 2 +",
     rating: 5,
     discount: 20,
     images: [
@@ -37,7 +38,7 @@ const products = [
     price: 94.25,
     category: "Bakery",
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
-    btn: "В корзину",
+    btn: "- 2 +",
     rating: 5,
     discount: 20,
     images: [
@@ -53,7 +54,7 @@ const products = [
     category: "Vegetable",
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     price: 968.25,
-    btn: "В корзину",
+    btn: "- 2 +",
     rating: 4.5,
     discount: 20,
     images: [
@@ -63,71 +64,71 @@ const products = [
       "../assets/images/products/7.png",
     ],
   },
-  {
-    id: 5,
-    name: "Carrot",
-    price: 94.115,
-    category: "Vegetable",
-    description: "A root vegetable with a crunchy texture an.99",
-    btn: "В корзину",
-    rating: 5,
-    discount: 20,
-    images: [
-      "../assets/images/products/5.png",
-      "../assets/images/products/6.png",
-      "../assets/images/products/7.png",
-      "../assets/images/products/8.png",
-    ],
-  },
-  {
-    id: 6,
-    name: "Cheese",
-    price: 5.25,
-    category: "Dairy",
-    description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
-    btn: "В корзину",
-    rating: 3.5,
-    discount: 50,
-    images: [
-      "../assets/images/products/6.png",
-      "../assets/images/products/7.png",
-      "../assets/images/products/8.png",
-      "../assets/images/products/9.png",
-    ],
-  },
-  {
-    id: 7,
-    name: "Chicken",
-    price: 942.25,
-    category: "Meat",
-    description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
-    btn: "В корзину",
-    rating: 3.5,
-    discount: 20,
-    images: [
-      "../assets/images/products/7.png",
-      "../assets/images/products/8.png",
-      "../assets/images/products/9.png",
-      "../assets/images/products/10.png",
-    ],
-  },
-  {
-    id: 8,
-    name: "Chocolate",
-    price: 884.25,
-    category: "Dessert",
-    description: "A sweet food made from cacao beans, used in",
-    price: 4939,
-    btn: "В корзину",
-    rating: 4.5,
-    discount: 20,
-    images: [
-      "../assets/images/products/8.png",
-      "../assets/images/products/9.png",
-      "../assets/images/products/10.png",
-      "../assets/images/products/11.png",
-    ],
-  },
+  //   {
+  //     id: 5,
+  //     name: "Carrot",
+  //     price: 94.115,
+  //     category: "Vegetable",
+  //     description: "A root vegetable with a crunchy texture an.99",
+  //     btn: "В корзину",
+  //     rating: 5,
+  //     discount: 20,
+  //     images: [
+  //       "../assets/images/products/5.png",
+  //       "../assets/images/products/6.png",
+  //       "../assets/images/products/7.png",
+  //       "../assets/images/products/8.png",
+  //     ],
+  //   },
+  //   {
+  //     id: 6,
+  //     name: "Cheese",
+  //     price: 5.25,
+  //     category: "Dairy",
+  //     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+  //     btn: "В корзину",
+  //     rating: 3.5,
+  //     discount: 50,
+  //     images: [
+  //       "../assets/images/products/6.png",
+  //       "../assets/images/products/7.png",
+  //       "../assets/images/products/8.png",
+  //       "../assets/images/products/9.png",
+  //     ],
+  //   },
+  //   {
+  //     id: 7,
+  //     name: "Chicken",
+  //     price: 942.25,
+  //     category: "Meat",
+  //     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+  //     btn: "В корзину",
+  //     rating: 3.5,
+  //     discount: 20,
+  //     images: [
+  //       "../assets/images/products/7.png",
+  //       "../assets/images/products/8.png",
+  //       "../assets/images/products/9.png",
+  //       "../assets/images/products/10.png",
+  //     ],
+  //   },
+  //   {
+  //     id: 8,
+  //     name: "Chocolate",
+  //     price: 884.25,
+  //     category: "Dessert",
+  //     description: "A sweet food made from cacao beans, used in",
+  //     price: 4939,
+  //     btn: "В корзину",
+  //     rating: 4.5,
+  //     discount: 20,
+  //     images: [
+  //       "../assets/images/products/8.png",
+  //       "../assets/images/products/9.png",
+  //       "../assets/images/products/10.png",
+  //       "../assets/images/products/11.png",
+  //     ],
+  //   },
   // {
   //   id: 9,
   //   name: "Coffee",
@@ -577,29 +578,39 @@ const products = [
   //   ],
   // },
 ];
-
-const cards = document.querySelector(".cards");
+const korzinaKarts = document.querySelector(".korzina-carts");
 
 function displayProducts(products) {
   let str = "";
   products.forEach((product) => {
     str += `
-    <div class= "card">
-      <img class="card__img" src="${product.images[0]}" alt="code">
-        <div class = "card__content">
-        <h3>${product.price}$</h3>
-          <p class="card__content-title">${product.description}</p>
-          <div class="card__content-btn1">
-            <button class="card__content-btn">${product.btn}</button>
-          </div>
+        <div class="korzina-cart">
+            <div> 
+               <img src= "${product.images[0]}" alt="${product.title}"/>
+            </div>
+            <div>
+                <p>${product.description}</p>
+                <div class="korzina-cart__min-box">
+                    <div>
+                        <b>44,50₽</b>
+                    </div>
+                    <div>
+                        <p>за шт.</p>
+                    </div>
+                </div>
+           </div>
+           
+                 <div>
+                     <button class="korzina-cart__btn1">${product.btn}</button>
+                 </div>
+                 <div>
+                     <p class="korzina-cart__price">${product.price}$</pclass=>
+                 </div>
         </div>
-        
-    </div>  
-    `;
+        `;
   });
-  cards.innerHTML = str;
+  korzinaKarts.innerHTML = str;
 }
-displayProducts(products);
 
-// ///////////////////////////
+displayProducts(carts);
 

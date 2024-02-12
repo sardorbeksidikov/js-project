@@ -1,13 +1,11 @@
-const loginForm = document.getElementById('catalog-list');
-const toggleForm = document.getElementById('toggleForm');
+const loginForm = document.getElementById("catalog-list");
+const toggleForm = document.getElementById("toggleForm");
 
-toggleForm.addEventListener('click', function (e) {
-    loginForm.classList.toggle('open');
+toggleForm.addEventListener("click", function (e) {
+  loginForm.classList.toggle("open");
 });
 
-
 // Modal/////////////////////
-
 
 const btnOpen = document.getElementById("btn-open");
 const btnClose = document.getElementById("btn-close");
@@ -22,4 +20,5 @@ btnOpen.addEventListener("click", function (e) {
 btnClose.addEventListener("click", function (e) {
   modal.classList.remove("open");
 });
+
 
